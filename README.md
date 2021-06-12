@@ -1,2 +1,2 @@
 # PORTFOLIO
-This is my HTML learning portfolio
+This is my HTML learning portfolio.
