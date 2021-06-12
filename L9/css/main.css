@@ -9,6 +9,7 @@ body{
 	color: initial;
 }
 .home-btn {
+  z-index: 99;
   font-family: 'Philosopher', sans-serif;
   position: absolute;
   right: 0; 
