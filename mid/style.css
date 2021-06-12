@@ -176,7 +176,7 @@ body {
 
 .text100 {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 23px;
   color: #445694;
   margin-bottom: 32px;
 }
@@ -215,7 +215,7 @@ body {
 }
 
 .cards {
-  padding-top: 30px;
+  padding-top: 10px;
   margin: auto;
   width: 90%;
   display: flex;
@@ -248,7 +248,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 340px;
+  height: 260px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
@@ -268,7 +268,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   position: absolute;
-  height: 390px;
+  height: 330px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   top: 0;
@@ -309,7 +309,7 @@ body {
   padding-right: 22px;
   margin: 2px;
   box-sizing: border-box;
-  font-size: 23.5px;
+  font-size: 20px;
 }
 
 .card:hover .intro {
@@ -321,11 +321,12 @@ body {
   font-size: 28px;
   margin-top: 49px;
   margin-bottom: 0px;
+  padding-top:14px;
 }
 
 .t1 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  margin-top: 44px;
+  margin-top: 40px;
 }
 
 .card:hover .card__img--hover {
@@ -349,7 +350,7 @@ body {
   margin: auto;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: 430px;
   display: flex;
   max-width: 900px;
   max-height: 550px;
@@ -439,7 +440,7 @@ body {
 }
 
 .carousel-item--2 .carousel-item__image {
-  background-image: url("https://www.skybldg.co.jp/img/top_002_smp.jpg");
+  background-image: url("https://www.skybldg.co.jp/img/i_topMv_p01s.jpg");
 }
 
 .carousel-item--3 .carousel-item__image {
@@ -526,7 +527,7 @@ body {
 
 /* --------------------shopping 卡片------------------- */
 .sec {
-  padding-top: 20px;
+  padding-top: 0px;
   margin: auto;
   right: 0;
   left: 0;
@@ -543,7 +544,7 @@ body {
   width: 100%;
   max-width: 1200px;
   border-radius: 8px;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .content {
@@ -576,7 +577,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.box h2 {
+.box h3 {
   font-family: "Playfair Display", serif;
   text-decoration: none;
   position: absolute;
@@ -585,7 +586,7 @@ body {
   width: 100%;
   transition: opacity 0.2s, transform 0.3s;
   font-weight: 500;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 0;
   letter-spacing: 1px;
 }
@@ -596,11 +597,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .box img {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  transition: all 0.3s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 360px;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
 }
 .box img:hover {
   transition: all 0.3s ease-in-out;
@@ -627,7 +628,7 @@ body {
   transform: translate(-50%, -50%);
   border-color: transparent;
 }
-.w-content h2 {
+.w-content h3 {
   font-weight: bold;
   background-color: rgba(41, 105, 176, 0.7);
   text-decoration: none;
@@ -780,9 +781,9 @@ hr {
 div.clip-path-container {
   display: inline-block;
   position: relative;
-  height: 250px;
-  width: 250px;
-  margin: 10px;
+  height: 200px;
+  width: 200px;
+  margin: 10px 20px;
   padding: 3px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -800,8 +801,8 @@ div.clip-path-container {
 }
 
 .food {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background-size: cover;
   transition: all 0.2s ease-in-out;
   transform: scale(1.5);
@@ -822,22 +823,22 @@ div.clip-path-container {
 }
 
 .description-holder {
-  position: absolute;
-  top: 35px;
-  left: 120px;
-  height: 300px;
-  width: 100px;
-  transition: all 0.4s ease-in-out;
-  transition-delay: 0.1s;
-  opacity: 0;
-  text-align: right;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    height: 300px;
+    width: 70px;
+    transition: all 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    opacity: 0;
+    text-align: right;
 }
 
 .description-holder h4 {
-  font-size: 42px;
+  font-size: 32px;
   margin-top: 15px;
-  margin-right: 10px;
-  line-height: 60px;
+  margin-right: 4px;
+  line-height: 35px;
   color: #fff;
 }
 
