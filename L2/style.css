@@ -1,5 +1,4 @@
 body{
-  position:absolute;
   right:0;
   left:0;
   background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
@@ -15,7 +14,7 @@ body{
   font-size: 22px;
   letter-spacing: 1px;
   font-weight: bold;
-  background-color: #7f471fc2;
+  background-color: #a86232;
   border-radius:  0px 0 0 18px;
   padding: 6px 8px; 
 }
