@@ -1,6 +1,7 @@
 body{
-  margin-left: 260px;
-  margin-top: 35px;
+  position:absolute;
+  right:0;
+  left:0;
   background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 .home-btn {
