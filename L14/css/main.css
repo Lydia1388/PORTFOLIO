@@ -1,0 +1,64 @@
+.avatar{
+	text-align: center;
+}
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #79acad;
+  border-radius: 0 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.face{
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 300px;
+	height: 255px;
+}
+.face img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.look{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 207px;
+	height: 103px;
+	background-image: url(../images/look1.png);
+	margin-left: 45px;
+	margin-top: 105px;
+	background-repeat: no-repeat;
+}
+.look1{background-image: url(../images/look1.png);}
+.look2{background-image: url(../images/look2.png);}
+.look3{background-image: url(../images/look3.png);}
+.look4{background-image: url(../images/look4.png);}
+.look5{background-image: url(../images/look5.png);}
+.look6{background-image: url(../images/look6.png);}
+.look7{background-image: url(../images/look7.png);}
+.look8{background-image: url(../images/look8.png);}
+.look9{background-image: url(../images/look9.png);}
+.look10{background-image: url(../images/look10.png);}
+.control{
+	margin-top: 20px;
+}
+.btn{
+	cursor: pointer;
+}
+.btn-l{
+	margin-right: 20px;
+}
+.btn-r{}

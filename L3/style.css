@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap');
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #f54949;
+  border-radius:  0px 0 0 18px;
+  padding: 6px 8px; 
+}
+
+.home-btn:hover {
+  font-size: 26px;
+}
+
+.poster{
+  position: absolute;
+  width: 450px;
+  height: 695px;
+  outline: 1px solid #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.img{
+  position: absolute;
+}
+
+.red1{
+  position: absolute;
+  width: 423px;
+  height: 85px;
+  background-color: #c20116;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 144px;
+}
+
+.red2{
+  position: absolute;
+  width: 610px;
+  height: 85px;
+  background-color: #a41224;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 264px;
+}
+
+.black{
+  position: absolute;
+  width: 761px;
+  height: 125px;
+  background-color: #000;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top: 556px;
+  
+}

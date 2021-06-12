@@ -1,0 +1,221 @@
+body{
+  margin-left: 260px;
+  margin-top: 35px;
+  background-image: url(https://images.pexels.com/photos/2341290/pexels-photo-2341290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #7f471fc2;
+  border-radius:  0px 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.picture{
+  position: relative;
+/*   outline: 1px solid #000; */
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+.cup{
+  width: 200px;
+  height: 150px;
+  background-color: #b1aaa5;
+  border-radius: 0 0 30px 30px;
+  margin-left: 30px;
+  position: absolute;
+}
+.handle{
+  width: 100px;
+  height: 100px;
+  background-color: #b1aaa5;
+  border-radius: 0 30px 30px 0;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 15px;
+}
+.handle2{
+  width: 80px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  margin-top: 15px;
+  position: absolute;
+}
+.plate{
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top: 150px;
+  margin-left: 10px;
+  border-radius: 0 0 100px 100px;
+}
+.plate2{
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: #b1aaa5;
+  margin-top: 155px;
+  margin-left: 30px;
+  border-radius: 0 0 100px 100px;
+}
+.name{
+/*   outline: 1px solid #000; */
+  position: absolute;
+  text-align: center;
+  margin-top: 170px;
+  margin-left: 60px;
+  width: 150px;
+}
+.coffee1{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+  margin-top: 115px;
+  margin-left: 10px;
+  color: #fff;
+}
+.milkfoam{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 85px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #fff;
+}
+.water{
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  background-color: #9bcad4;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #fff;
+}
+.milk{
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 65px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #ede4ca;
+}
+.milkfoam2{
+  margin-top: 35px;
+}
+.cream{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 85px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #f5c976;
+}
+.milkfoam3{
+  margin-top: 35px;
+}
+.half{
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 65px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #ede4ca;
+}
+.milkfoam4{
+  height: 60px;
+  margin-top: 25px;
+}
+.milk2{
+  height: 30px;
+  margin-top: 85px;
+}
+.milk3{
+  height: 30px;
+  margin-top: 55px;
+}
+.cream2{
+  margin-top: 25px;
+}
+.choco{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 85px;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #000;
+}
+.milksugar{
+  position: absolute;
+  width: 180px;
+  height: 60px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 55px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #e3afd5;
+}
+.caramel{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #6e4a30;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: #000;
+  background-color: #c78734;
+}
+.whiskey{
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  background-color: #ba7ade;
+  text-align: center;
+  border-radius: 0 0 0 0;
+  margin-top: 85px;
+  margin-left: 10px;
+  color: #000;
+}
+.cream3{
+  margin-top: 55px;
+}

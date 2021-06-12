@@ -1,0 +1,86 @@
+body{
+	background-color: #f7ebc1;
+}
+.avatar{
+	text-align: center;
+    margin-top: 40px;
+}
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #79acad;
+  border-radius: 0 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.room{
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 920px;
+	height: 560px;
+}
+.room img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+.look{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 920px;
+	height: 560px;
+	margin-left: 0px;
+	margin-top: 20px;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+.ml1{
+	margin-left: -80px;
+}
+.ml2{
+	margin-left: 100px;
+}
+.look0{
+	margin-left: 0px;
+	opacity: 1;
+	transition: all 0.5s;
+}
+.look1{background-image: url(../images/p1.png);}
+.look2{background-image: url(../images/p2.png);}
+.look3{background-image: url(../images/p3.png);}
+.look4{background-image: url(../images/p4.png);}
+.look5{background-image: url(../images/p5.png);}
+.look6{background-image: url(../images/p6.png);}
+.look7{background-image: url(../images/p7.png);}
+.look8{background-image: url(../images/p8.png);}
+.look9{background-image: url(../images/p9.png);}
+.look10{background-image: url(../images/p10.png);}
+.control{
+	position: absolute;
+	z-index:999;
+	margin-top: -30px;
+	right: 0;
+	left: 0;
+}
+.btn{
+	cursor: pointer;
+}
+.btn-l{
+	margin-right: 20px;
+}
+.btn-r{}

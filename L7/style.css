@@ -1,0 +1,60 @@
+:root{
+  --bgc1: #dea431;
+  --bgc2: #f2c261;
+}
+article{
+/*   height: 100vh; */
+  min-height: 50vh;
+  padding-right: 70px;
+  padding-left: 20px;
+}
+.home-btn {
+  z-index: 99;
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #eeb51a;
+  border-radius:  0px 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.btn{
+  background-color: var(--bgc1);
+  color: #fff;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: var(--bgc2);
+}
+.btn_top{
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  border-radius: 10px 0 0 10px;
+  font-size: 25px;
+}
+.source{
+  background-color: var(--bgc1);
+  color: #fff;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.source:hover{
+  background-color: var(--bgc2);
+  
+}

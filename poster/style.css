@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;600&display=swap');
+body{
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  TOP: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #f67777;
+  border-radius:  0px 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.poster{
+  background-color: #f7d9d9;
+  font-family: 'Signika', sans-serif;
+  position: absolute;
+  width: 450px;
+  height: 695px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+} 
+.img{
+  position: absolute;
+}
+.barcode{
+  width: 90px;
+  height: 220px;
+  font-size: 0;
+  margin-left: 306px;
+  margin-top: 437px;
+  transform: rotate(-45deg);
+}
+.lineArea{
+/*   outline: 1px solid red; */
+  width: 10%;
+  height: 80%;
+  display: inline-block;
+}
+.line{
+  position: absolute;
+  background-color: #a36039;
+  width: 1px;
+  height: 80%;
+  position: absolute;
+}
+.line0{
+  height: 80%;
+  width: 2px;
+}
+.line2{
+ height: 30%;
+ width: 2px;
+}
+.line3{
+ height: 70%;
+}
+.line4{
+  width: 2px;
+}
+.line5{
+  height: 30%;
+}
+.line6{
+  height: 70%;
+}
+.line7{
+  width: 2px;
+}
+.line8{
+  height: 30%;
+}
+.red1{
+  position: absolute;
+  width: 423px;
+  height: 85px;
+  background-color: #F79489;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 144px;
+}
+.text1{
+  color: #fff;
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  margin-right: 39px;
+  margin-top: 5px;
+}
+.red2{
+  position: absolute;
+  width: 610px;
+  height: 85px;
+  background-color: #F8AFA6;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 264px;
+}
+.text2{
+  color: #fff;
+  position: absolute;
+  text-align: right;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+.black{
+  position: absolute;
+  width: 761px;
+  height: 125px;
+  background-color: #D48C70;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top: 557px;
+}
+.text3{
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 22px;
+}
+.text4{
+  color: #A75600;
+  font-size: 25px;
+  position: absolute;
+  font-weight: bold;
+  margin-left: 163px;
+  margin-top: 191px;
+  transform: rotate(-45deg);
+}
+.text5{
+  position: absolute;
+  color: #A75600;
+  font-size: 24px;
+  margin-left: 169px;
+  margin-top: 179px;
+  transform: rotate(-45deg);
+}
+.text6{
+  white-space: nowrap;
+  color: #A75600;
+  position: absolute;
+  font-size: 24px;
+  margin-left: 269px;
+  margin-top: 345px;
+  transform: rotate(-45deg);
+}
+.text7{
+  position: absolute;
+  color: #A75600;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 165px;
+  margin-top: 506px;
+  transform: rotate(-45deg);
+}

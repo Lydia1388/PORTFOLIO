@@ -1,0 +1,44 @@
+.home-btn {
+  font-family: 'Philosopher', sans-serif;
+  position: absolute;
+  right: 0; 
+  top: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #79acad;
+  border-radius:  0 0 0 18px;
+  padding: 6px 8px; 
+}
+.home-btn:hover {
+  font-size: 26px;
+}
+.title1{
+  font-size: 30px;
+  color: #1d4e8a;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.title2{
+  font-size: 20px;
+  margin-left: 300px;
+  color: #65a1eb;
+  font-weight: bold;
+}
+.ul1{
+  padding-left: 10px;
+}
+.ul1 li{
+  list-style-type: none;
+  background-color: #fce2c0;
+/*   margin-bottom: 5px; */
+}
+.ul1 li:nth-child(odd){
+  background-color: #fff;
+}
+.fa{
+  font-size: 20px;
+  color: #ab7743;
+}
