@@ -68,7 +68,7 @@ body {
 }
 
 .cover {
-  background-image: url(https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg);
+  background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
